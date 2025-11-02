@@ -1,5 +1,4 @@
-
- from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash
 
 app = Flask(__name__)
 app.secret_key = 'replace-with-a-secure-random-key'
@@ -32,4 +31,5 @@ def contact():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=10000, debug=True)
+ 
     
